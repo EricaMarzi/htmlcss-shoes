@@ -10,6 +10,12 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+h1 { 
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
 .flex {
     display: flex;
 }
@@ -39,3 +45,16 @@ body {
     flex-direction: column;
 }
 
+.card-text {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
