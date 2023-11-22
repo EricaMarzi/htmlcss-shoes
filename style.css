@@ -1,5 +1,41 @@
+/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Utility */
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+/*MAIN*/
+
+.background {
+    height: 100vh;
+}
+
+.col.flex {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
